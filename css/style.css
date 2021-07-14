@@ -1,0 +1,347 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* header section style start */
+
+.football-header {
+    padding-top: 30px;
+}
+
+.football-header {
+    background-color: #2D25A0;
+}
+
+.topnav {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    overflow: hidden;
+    background-color: #2D25A0;
+}
+
+.nav-button {
+    justify-self: end;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-items a {
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.nav-items a.icon {
+    display: none;
+}
+
+.nav-items a.icon i {
+    color: #fff;
+}
+
+
+/* header media query  */
+
+@media screen and (max-width: 768px) {
+    .nav-items a {
+        display: none;
+    }
+    .nav-items a.icon {
+        display: block;
+    }
+    .nav-items.responsive a {
+        display: block;
+    }
+    .nav-items {
+        position: relative;
+    }
+    .nav-items.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav {
+        grid-template-columns: 3fr 1fr;
+    }
+    .nav-button {
+        justify-self: center;
+    }
+}
+
+.nav-button a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-button a i {
+    padding-right: 10px;
+}
+
+.football-banner {
+    padding-top: 100px;
+    background-color: #2D25A0;
+    padding-bottom: 100px;
+}
+
+.image-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.football-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* header section style end */
+
+
+/* banner section style start  */
+
+.football-watch h1 {
+    font-size: 61px;
+    line-height: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner-button {
+    margin-top: 20px;
+}
+
+.banner-button a {
+    display: inline-block;
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px 10px 24px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.banner-button a i {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .football-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .football-image {
+        margin-top: 50px;
+    }
+    .football-watch h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
+
+
+/* banner section style end  */
+
+
+/* football palyer style start */
+
+.football-players {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.football-player {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.ftimgc {
+    margin: auto;
+    padding: 15px;
+}
+
+.ftimgc img {
+    width: 100%;
+    height: 100%;
+}
+
+.football-player h3 {
+    font-size: 28px;
+    line-height: 40px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.ftimgc p {
+    color: rgba(108, 108, 108, 1);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .players {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* football palyer style end */
+
+
+/* highlight section part  style start */
+
+.highlight {
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.copa-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.copa-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.copa-america h1 {
+    font-family: 'Poppins';
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: rgba(10, 8, 38, 1);
+}
+
+.copa-america p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.copa-america {
+    display: grid;
+    align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .copa-content {
+        grid-template-columns: 1fr;
+    }
+    .copa-image {
+        margin-top: 30px;
+    }
+    .highlight {
+        padding: 20px;
+    }
+}
+
+
+/* highlight style part end */
+
+
+/* footer part style start */
+
+.footer-content {
+    margin: auto;
+    text-align: center;
+}
+
+.socils-links ul {
+    list-style: none;
+    display: table;
+    margin: auto;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.socils-links ul li {
+    display: inline-block;
+}
+
+.socils-links ul li a {
+    background-color: #e7e7e8;
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.socils-links ul li a i {
+    color: #969BAB;
+}
+
+.copy-right h3 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.copy-right {
+    padding-top: 30px;
+}
+
+.football-footer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-logo {
+        width: 250px;
+        margin: auto;
+    }
+}
+
+
+/* footer part style end */
