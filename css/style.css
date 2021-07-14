@@ -161,6 +161,10 @@
     font-weight: 500;
 }
 
+.banner-button a:hover i {
+    margin-left: 10px;
+}
+
 .banner-button a i {
     padding-left: 10px;
 }
@@ -395,6 +399,64 @@
 
 
 /* match part style end */
+
+
+/* league table style start */
+
+.league-table {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.table-content h2 {
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: rgba(224, 44, 109, 1);
+}
+
+.table-content {
+    margin: auto;
+    text-align: center;
+}
+
+.table-content h3 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: rgba(10, 8, 38, 1);
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.table table {
+    font-family: 'Poppins';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table tr th {
+    background-color: rgba(224, 44, 109, 1);
+    color: #fff;
+}
+
+
+/* league table style end */
 
 
 /* footer part style start */
