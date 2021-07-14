@@ -52,6 +52,10 @@
     color: #fff;
 }
 
+#navItems a:hover {
+    background-color: #E02C6D;
+}
+
 
 /* header media query  */
 
@@ -78,6 +82,21 @@
     }
     .nav-button {
         justify-self: center;
+    }
+    .nav-items.responsive a {
+        display: table;
+    }
+    .nav-items a.icon {
+        display: table;
+    }
+    .nav-items a.icon i {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .nav-button a i {
+        display: none;
     }
 }
 
@@ -273,6 +292,109 @@
 
 
 /* highlight style part end */
+
+
+/* match part style start */
+
+.upcoming-match {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(45, 37, 160, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.30);
+}
+
+.match-item {
+    padding: 20px;
+}
+
+.match-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.match-item h3 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.match-item:nth-child(2) {
+    align-self: center;
+    color: #fff;
+    text-align: center;
+}
+
+.match-item h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.match-item p {
+    font-size: 25px;
+    font-family: 'Poppins';
+    line-height: 30px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.match-item h4 {
+    font-size: 25px;
+    font-family: 'Poppins';
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.upcom-heading {
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.match {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .upcoming-match {
+        grid-template-columns: 1fr;
+        width: auto !important;
+    }
+    .match-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .match-item {
+        text-align: center;
+    }
+    .match-item:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+
+/* match part style end */
 
 
 /* footer part style start */
